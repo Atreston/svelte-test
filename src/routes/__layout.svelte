@@ -1,9 +1,7 @@
 <script>
-    import "../tailwind.css"
+  import "../tailwind.css";
 </script>
 
-<div>
-    <slot>
-        
-    </slot>
+<div class="bg-red-200">
+  <slot />
 </div>
